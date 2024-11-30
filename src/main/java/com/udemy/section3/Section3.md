@@ -1,6 +1,6 @@
 # Key Notes
 
-## ⭐️ Data Types
+## ⭐ Data Types
 **-> All primitive data types have respective wrapper classes:**
 
 | Primitive Data | Wrapper Class | Width (Bits) | Min Value        | Max Value         |
@@ -33,7 +33,7 @@ int maxIntValue = Integer.MAX_VALUE; // 2147483647
 long longSize = Long.SIZE; // 64
 ```
 
-### 📍 Casting
+### 📍 Type Casting
 **-> Casting means to treat/convert a number (from one type to another):**
 
 `(byte) (myMinByteValue / 2)`
