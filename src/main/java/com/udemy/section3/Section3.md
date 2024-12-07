@@ -1,6 +1,6 @@
-# Key Notes
+# Section 3: First Steps: Data Types & Variables
 
-## ⭐ Data Types
+## Data Types
 **-> All primitive data types have respective wrapper classes:**
 
 | Primitive Data | Wrapper Class | Width (Bits) | Min Value        | Max Value         |
@@ -21,7 +21,7 @@
 | Classes (eg. ArrayList, List etc) | `public class = MyClass {...}`         | N/A                    |
 
 
-###  📍 Class Wrappers
+### Class Wrappers
 **-> Primitive Data have Wrapper Classes have built-in Methods available:**
 
 ```java
@@ -33,7 +33,7 @@ int maxIntValue = Integer.MAX_VALUE; // 2147483647
 long longSize = Long.SIZE; // 64
 ```
 
-### 📍 Type Casting
+### Type Casting
 **-> Casting means to treat/convert a number (from one type to another):**
 
 `(byte) (myMinByteValue / 2)`
@@ -46,7 +46,7 @@ int myNewTotal = (myTotal / 2); // *NO* Error since numbers default to int in Ja
 short myNewTotal (myTotal / 2); // Error since defaults to int
 ```
 
-### 📍 Floating Points Numbers
+### Floating Points Numbers
 - Floating Point Numbers are known as REAL numbers (other numbers are referred to as WHOLE numbers)
 - 2 Types of Floating Point Numbers: `float` & `double`
 - `double` is the Java default for any decimal number
@@ -83,7 +83,7 @@ myDouble = 5D / 3D;      // 1.6666666666666667 have 16 decimals places
 > 2. Java libraries mostly use **doubles**
 > 3. **doubles** are more accurate & can handle larger numbers
 
-### 📍 Characters: `chars`
+### Characters: `chars`
 **-> Difference between chars and Strings:**
 
 | chars                        | Strings                       | 
@@ -100,7 +100,7 @@ myDouble = 5D / 3D;      // 1.6666666666666667 have 16 decimals places
 | Unicode Num: `U+0044` | Unicode Value      | `'\u0044'` | `char myChar = '\u0044';` | 
 | HTML Code: `&#68;`    | Integer Value      | `68`       | `char myChar = 68;`       |
 
-### 📍 Strings: `Strings`
+### Strings: `Strings`
 - A `String` is a class that contains a sequence of characters
 - Size only limited by memory available
 - Strings are `immutable` - you cannot change a `String` after it's been created
@@ -119,7 +119,7 @@ lastString = firstString + lastString; // Java actually creates a new String and
     System.out.println(lastString); // "abcxyz" (this is not the original String "lastString"
 ```
 
-### 📍 Abbreviating Operators
+### Abbreviating Operators
 ```java
 // Incrementing
 result = result + 1; // long way

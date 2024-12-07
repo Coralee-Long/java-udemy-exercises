@@ -1,4 +1,6 @@
-# Naming Conventions in Java
+# Section 4: IntelliJ Basics
+
+## Naming Conventions in Java
 
 | Identifier    | Recommended      | Example          |
 |---------------|------------------|------------------|
@@ -7,7 +9,7 @@
 | Method Name   | Lower Camel Case | getData          |
 | Variable Name | Lower Camel Case | firstVariable    |
 
-# Ternary Operators
+## Ternary Operators
 **Example 1:**
 ```java
 // Not ideal
@@ -28,7 +30,7 @@ String message = isDog ? "This is a dog" : "This is not a dog";
 System.out.println(message);
 ```
 
-# Java Operator Precedence Table
+## Java Operator Precedence Table
 
 | Precedence Level | Operator(s)               | Type/Description                                    |
 |-------------------|---------------------------|----------------------------------------------------|
@@ -58,7 +60,7 @@ System.out.println(message);
 | 15                | `=`, `+=`, `-=`, `*=`, `/=`, `%=` , `&=`, `&#124;=`, `^=`, `<<=`, `>>=`, `>>>=` | Assignment and compound assignment operators |
 | 16                | `,`                      | Comma (used for sequential evaluation)            |
 
-## Notes
+### Notes
 - **Associativity:** Operators with the same precedence level are evaluated based on their associativity:
     - **Left-to-right:** Most operators (e.g., arithmetic, relational, and bitwise operators).
     - **Right-to-left:** Unary, assignment, and ternary operators.
